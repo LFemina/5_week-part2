@@ -1,0 +1,99 @@
+html {
+    background-color: rgba(212, 244, 250, 0.479);
+}
+/*странице задан цвет*/
+
+.header {
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(248, 79, 197);
+}
+/*стилизация шапки*/
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(215, 16, 241, 0.753);
+}
+/*заголовок отличается от всего контента*/
+
+.nav {
+    display: flex;
+    height: 20vh;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.menu {
+    box-sizing: content-box;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+    align-content: center;
+}
+
+a:link {
+    color: rgb(8, 8, 8);
+}
+
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+/*здесь заканчивается стилизация навигации*/
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img {
+    box-sizing: border-box;
+    width: 6rem;
+}
+
+.img:hover {
+    transform: scale(2); /*этот стиль увеличивает картинку в 2 раза при наведении курсора*/
+}
+
+
+.item_1 {
+    align-self: flex-end;
+    order: 1;
+}
+
+.item_2 {
+    align-self: flex-end;
+    order: 5;
+}
+
+.item_3 {
+    align-self: flex-start;
+    order: 3;
+}
+
+.item_4 {
+    align-self: center;
+    order: 4;
+}
+
+.item_5 {
+    align-self: center;
+    order: 2;
+}
+/*закончилась стилизация картинок*/
